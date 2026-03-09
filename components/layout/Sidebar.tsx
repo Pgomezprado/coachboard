@@ -5,6 +5,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import {
   LayoutDashboard,
   Users,
+  Shield,
   ClipboardList,
   Calendar,
   BarChart3,
@@ -29,6 +30,7 @@ interface SidebarProps {
 const coachNavItems = [
   { href: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { href: '/athletes', icon: Users, label: 'Atletas' },
+  { href: '/teams', icon: Shield, label: 'Equipos' },
   { href: '/plans', icon: ClipboardList, label: 'Planes' },
   { href: '/exercises', icon: Dumbbell, label: 'Ejercicios' },
   { href: '/calendar', icon: Calendar, label: 'Calendario' },

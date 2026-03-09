@@ -1,0 +1,22 @@
+-- ============================================================
+-- CoachBoard — Seed: Datos de Prueba
+-- ============================================================
+-- NOTA: Ejecutar DESPUÉS de crear los usuarios desde Supabase Auth
+-- o usar el panel de Supabase para crear estos usuarios primero.
+
+-- Ejercicios de ejemplo (públicos, sin coach_id específico)
+-- Para usar este seed, primero crear un coach en auth y obtener su UUID
+
+-- Ejemplo de ejercicios base (requiere un coach_id válido):
+-- insert into public.exercise_library (coach_id, name, category, muscle_groups, is_public)
+-- values
+--   ('<coach-uuid>', 'Sentadilla', 'strength', ARRAY['quads','glutes','hamstrings'], true),
+--   ('<coach-uuid>', 'Press de Banca', 'strength', ARRAY['chest','triceps','shoulders'], true),
+--   ('<coach-uuid>', 'Peso Muerto', 'strength', ARRAY['back','hamstrings','glutes'], true),
+--   ('<coach-uuid>', 'Dominadas', 'strength', ARRAY['back','biceps'], true),
+--   ('<coach-uuid>', 'Press Militar', 'strength', ARRAY['shoulders','triceps'], true),
+--   ('<coach-uuid>', 'Remo con Barra', 'strength', ARRAY['back','biceps'], true),
+--   ('<coach-uuid>', 'Zancadas', 'strength', ARRAY['quads','glutes','hamstrings'], true),
+--   ('<coach-uuid>', 'Hip Thrust', 'strength', ARRAY['glutes','hamstrings'], true),
+--   ('<coach-uuid>', 'Carrera 5km', 'cardio', ARRAY['cardio'], true),
+--   ('<coach-uuid>', 'Plancha', 'strength', ARRAY['core'], true);
